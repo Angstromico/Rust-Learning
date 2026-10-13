@@ -1,4 +1,5 @@
 mod basic_variables;
+mod constants;
 mod mutability;
 mod scope_variables;
 mod shadowing_variables;
@@ -8,4 +9,5 @@ fn main() {
     mutability::run();
     shadowing_variables::run();
     scope_variables::run();
+    constants::run();
 }
