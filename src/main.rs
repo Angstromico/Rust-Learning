@@ -1,4 +1,4 @@
 fn main() {
-    let pears: i32 = 5;
-    println!("Number of pears: {}", pears);
+    let pears_in_basket: i32 = 5;
+    println!("Number of pears: {}", pears_in_basket);
 }
