@@ -8,4 +8,8 @@ fn main() {
     println!("Oranges {} pears: {}", oranges_in_basket, pears_in_basket);
     //You can pass variables to println! using positional arguments directly.
     println!("Oranges {oranges_in_basket} pears: {pears_in_basket}");
+    //You can use numeric positional arguments to specify the order of variables in the output.
+    println!("Oranges {1} pears: {0}", pears_in_basket, oranges_in_basket);
+    //You can also use named arguments to specify the order of variables in the output.
+    println!("Oranges {oranges} pears: {pears}", oranges = oranges_in_basket, pears = pears_in_basket);
 }
