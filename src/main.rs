@@ -15,4 +15,13 @@ fn main() {
 
     //you can use underscores in variables to avoid warning when they are not used
     let _unused_variable = 10; 
+
+    //Inmmutable and mutable variables
+    let immutable_variable = 20;      
+    let mut mutable_variable = 30;
+    println!("Initial mutable variable: {}", mutable_variable);
+    mutable_variable = 40; // This is allowed
+    println!("Immutable variable: {}", immutable_variable);
+    println!("Mutable variable: {}", mutable_variable);
+    //immutable_variable = 50; // This will cause a compile-time error because immutable_variable is not mutable
 }
