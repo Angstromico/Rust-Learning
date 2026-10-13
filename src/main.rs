@@ -1,4 +1,5 @@
 mod basic_variables;
+mod compiler_directive_allow;
 mod constants;
 mod mutability;
 mod scope_variables;
@@ -12,4 +13,5 @@ fn main() {
     scope_variables::run();
     constants::run();
     type_aliases::run();
+    compiler_directive_allow::run();
 }
