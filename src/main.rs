@@ -1,3 +1,4 @@
 fn main() {
-    println!("Hello, world!");
+    let pears: i32 = 5;
+    println!("Number of pears: {}", pears);
 }
