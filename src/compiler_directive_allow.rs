@@ -1,5 +1,10 @@
-#[allow(unused_variables)] // This directive allows unused variables in this function.
+#![allow(unused_variables)] // This directive allows unused variables in this file.
 pub fn run() {
-    let x = 5;
-    let y = 10; // This variable is unused, but the compiler will not warn about it due to the directive above.
+    let x: i32 = 5;
+    let y: i32 = 10; // This variable is unused, but the compiler will not warn about it due to the directive above.
+    no_sum()
+}
+
+pub fn no_sum()  {
+    let z: i32 = 15; // This variable is also unused, but the directive applies here as well.
 }
